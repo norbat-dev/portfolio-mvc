@@ -21,7 +21,7 @@ class PortfolioCollection {
 	/**
 	 * 
 	 */
-	private function get_all( $args ) {
+	public static function get_all( $args ) {
 		$query_args = [
 			'post_type' 	=> 'portfolio',
 			'fields' 		=> 'ids',
